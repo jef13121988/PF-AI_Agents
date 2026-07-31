@@ -211,11 +211,11 @@ INICIADO → RELEVADO → PLANIFICADO → CONFIGURANDO → VALIDANDO → CONFIGU
 
 ### 3.5. Condiciones de corte.
 
-✅ Éxito: generación de una configuración válida.
-⛔ Corte por presupuesto de herramientas: se alcanzó el tope de gasto/requests de la API.
-⛔ Corte por error: fallo no recuperable de alguno de los servicios involucrados (catálogo de hardware inaccesible, Claude sin respuesta tras N reintentos, error del orquestador o credenciales inválidas).
-⛔ Corte por presupuesto del cliente: no es posible construir una configuración que satisfaga los requisitos del cliente respetando el presupuesto máximo.
-⛔ Corte por iteraciones máximas: se alcanza el número máximo de reconfiguraciones o replanificaciones sin obtener una solución válida. El caso se deriva al supervisor humano para su resolución.
+- ✅ Éxito: generación de una configuración válida.
+- ⛔ Corte por presupuesto de herramientas: se alcanzó el tope de gasto/requests de la API.
+- ⛔ Corte por error: fallo no recuperable de alguno de los servicios involucrados (catálogo de hardware inaccesible, Claude sin respuesta tras N reintentos, error del orquestador o credenciales inválidas).
+- ⛔ Corte por presupuesto del cliente: no es posible construir una configuración que satisfaga los requisitos del cliente respetando el presupuesto máximo.
+- ⛔ Corte por iteraciones máximas: se alcanza el número máximo de reconfiguraciones o replanificaciones sin obtener una solución válida. El caso se deriva al supervisor humano para su resolución.
 
 ### 3.6. Puntos de intervención humana.
 
